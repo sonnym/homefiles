@@ -1,0 +1,6 @@
+[core]
+	pager = vim -
+	excludesfile = ~/.gitignore
+[user]
+	name = sonnym
+	email = michaud.sonny@gmail.com
