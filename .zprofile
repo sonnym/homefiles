@@ -19,14 +19,17 @@ else
   start_agent;
 fi
 
+PATH=$PATH:~/bin;export PATH
+MANPATH=$MANPATH:~/share/man;export MANPATH
+
 # 2010.10.03
 #KDEWM=/usr/bin/awesome;export KDEWM
 
 #####
 SSH=`env | grep SSH_CONNECTION`
-RUNLEVEL=`runlevel | cut -f2 -d' '`
+#RUNLEVEL=`runlevel | cut -f2 -d' '`
 if [ -z "$SSH" ]; then
-   if [ $RUNLEVEL -eq 5 ]; then
+#   if [ $RUNLEVEL -eq 5 ]; then
        startx
-   fi
+#   fi
 fi
