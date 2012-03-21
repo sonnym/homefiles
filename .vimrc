@@ -2,22 +2,21 @@ set bg=light
 set showfulltag
 set laststatus=1
 
-autocmd BufNewFile,BufRead *.vb, *aspx.vb set ft=vb
-
-autocmd BufNewFile,BufRead *.cs, *ascx, *.asmx, *.asax set ft=cs
-
-autocmd BufNewFile,BufRead *.aspx,*.master,*.ascx set ft=html
-
+" filetypes
 autocmd BufNewFile,BufRead *.scss set ft=sass
 autocmd BufNewFile,BufRead *.haml set ft=haml
-
-autocmd BufNewFile,BufRead *.rb,*.rake,*.prawn,*.scss,*.js,*.json set tabstop=2
-autocmd BufNewFile,BufRead *.rb,*.rake,*.prawn,*.scss,*.js,*.json set expandtab
-autocmd BufNewFile,BufRead *.rb,*.rake,*.prawn,*.scss,*.js,*.json set softtabstop=2
-autocmd BufNewFile,BufRead *.rb,*.rake,*.prawn,*.scss,*.js,*.json set shiftwidth=2
 autocmd BufNewFile,BufRead *.prawn set ft=ruby
-
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufNewFile,BufRead *.{install,module,inc} set ft=php
+autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
+autocmd BufNewFile,BufRead *.{cs,ascx,asmx,asax} set ft=cs
+autocmd BufNewFile,BufRead *.{aspx,master,ascx} set ft=html
+
+" indentation
+autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc} set tabstop=2
+autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc} set expandtab
+autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc} set softtabstop=2
+autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc} set shiftwidth=2
 
 autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
@@ -33,7 +32,6 @@ set mouse=
 
 set cindent
 set tabstop=4
-"set softtabstop=4
 set indentexpr=
 set indentkeys=
 
