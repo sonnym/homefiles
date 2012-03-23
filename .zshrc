@@ -29,3 +29,4 @@ plugins=(git npm rails rbenv)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+unsetopt correct_all
