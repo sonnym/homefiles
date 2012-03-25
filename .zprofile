@@ -29,7 +29,7 @@ MANPATH=$MANPATH:~/share/man;export MANPATH
 SSH=`env | grep SSH_CONNECTION`
 #RUNLEVEL=`runlevel | cut -f2 -d' '`
 if [ -z "$SSH" ]; then
-#   if [ $RUNLEVEL -eq 5 ]; then
+   if [ -z $DISPLAY ]; then
        startx
-#   fi
+   fi
 fi
