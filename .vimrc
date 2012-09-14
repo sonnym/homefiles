@@ -42,3 +42,5 @@ filetype plugin on
 " display extra whitespace at the end of the line except when typing
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+\%#\@<!$/
+
+colorscheme asmdev
