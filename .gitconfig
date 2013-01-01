@@ -4,5 +4,7 @@
 [user]
 	name = sonnym
 	email = michaud.sonny@gmail.com
+[pull]
+	rebase = true
 [push]
 	default = upstream
