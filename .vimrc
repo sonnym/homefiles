@@ -15,13 +15,13 @@ autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
 autocmd BufNewFile,BufRead *.{cs,ascx,asmx,asax} set ft=cs
 autocmd BufNewFile,BufRead *.{aspx,master,ascx} set ft=html
 
-" indentation
-autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc,test} set tabstop=2
-autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc,test} set expandtab
-autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc,test} set softtabstop=2
-autocmd BufNewFile,BufRead *.{rb,rake,prawn,scss,js,json,php,install,module,inc,test} set shiftwidth=2
-
 autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
+
+" indentation
+set tabstop=2
+set expandtab
+set softtabstop=2
+set shiftwidth=2
 
 set noea
 set autoindent
@@ -34,7 +34,6 @@ set title
 set mouse=
 
 set cindent
-set tabstop=4
 set indentexpr=
 set indentkeys=
 
