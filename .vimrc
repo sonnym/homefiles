@@ -37,6 +37,10 @@ set cindent
 set indentexpr=
 set indentkeys=
 
+" coerce filename completion to shell-like behavior
+set wildmenu
+set wildmode=longest,list
+
 filetype plugin on
 
 " display extra whitespace at the end of the line except when typing
