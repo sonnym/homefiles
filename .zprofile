@@ -33,3 +33,5 @@ if [ -z "$SSH" ]; then
        startx
    fi
 fi
+
+export GOROOT=$HOME/bin
