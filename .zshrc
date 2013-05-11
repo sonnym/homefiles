@@ -30,3 +30,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 unsetopt correct_all
+
+# Allow comments in interactive shell
+setopt interactive_comments
