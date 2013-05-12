@@ -33,3 +33,5 @@ unsetopt correct_all
 
 # Allow comments in interactive shell
 setopt interactive_comments
+
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
