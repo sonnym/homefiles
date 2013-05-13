@@ -1,1 +1,4 @@
+# clear vi, less, &c. output on close
+altscreen on
+
 startup_message off
