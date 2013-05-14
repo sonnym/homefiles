@@ -18,7 +18,7 @@ DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git npm rbenv)
+plugins=(npm rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,3 +32,4 @@ unsetopt correct_all
 setopt interactive_comments
 
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
