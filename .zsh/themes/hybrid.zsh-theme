@@ -1,7 +1,7 @@
 #
 autoload -Uz vcs_info
 
-zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' enable hg git
 
 zstyle ':vcs_info:*' check-for-changes true
 
