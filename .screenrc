@@ -1,4 +1,7 @@
+startup_message off
+
 # clear vi, less, &c. output on close
 altscreen on
 
-startup_message off
+# suppress blank lines in history buffer
+compacthist on
