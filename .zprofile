@@ -19,9 +19,6 @@ else
   start_agent;
 fi
 
-PATH=$PATH:~/bin;export PATH
-MANPATH=$MANPATH:~/share/man;export MANPATH
-
 # 2010.10.03
 #KDEWM=/usr/bin/awesome;export KDEWM
 
@@ -33,5 +30,3 @@ if [ -z "$SSH" ]; then
        startx
    fi
 fi
-
-export GOROOT=$HOME/bin
