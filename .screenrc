@@ -5,3 +5,7 @@ altscreen on
 
 # suppress blank lines in history buffer
 compacthist on
+
+# store additional lines in window scrollback
+scrollback 1000
+defscrollback 1000
