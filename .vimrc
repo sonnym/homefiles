@@ -1,6 +1,6 @@
 call pathogen#infect()
 
-set bg=light
+set bg=dark
 set showfulltag
 set laststatus=1
 
