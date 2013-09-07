@@ -47,3 +47,10 @@ highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+\%#\@<!$/
 
 colorscheme asmdev
+
+if &diff
+  highlight DiffAdd ctermbg=black
+  highlight DiffText ctermbg=black
+  highlight DiffDelete ctermbg=black
+  highlight DiffChange ctermbg=black
+endif

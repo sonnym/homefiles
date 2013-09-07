@@ -8,3 +8,7 @@
 	rebase = true
 [push]
 	default = upstream
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
