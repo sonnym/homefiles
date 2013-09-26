@@ -7,7 +7,7 @@ set laststatus=1
 " filetypes
 autocmd BufNewFile,BufRead *.scss set ft=sass
 autocmd BufNewFile,BufRead *.haml set ft=haml
-autocmd BufNewFile,BufRead *.prawn,Guardfile set ft=ruby
+autocmd BufNewFile,BufRead *.prawn,Guardfile,Gemfile set ft=ruby
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufNewFile,BufRead *.{install,module,inc,test,profile,drush} set ft=php
 autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
