@@ -1,4 +1,4 @@
-# 2010.02.02 => http://help.github.com/working-with-key-passphrases/
+# set up ssh keys
 SSH_ENV="$HOME/.ssh/environment"
 
 function start_agent {
@@ -8,19 +8,14 @@ function start_agent {
   /usr/bin/ssh-add ~/.ssh/dsa ~/.ssh/rsa ~/.ssh/aws-access-sonny.pem ~/.ssh/cloudfront-access-sonny.pem;
 }
 
-# Source SSH settings, if applicable
 if [ -f "${SSH_ENV}" ]; then
   . "${SSH_ENV}" > /dev/null
-    #ps ${SSH_AGENT_PID} doesn't work under cywgin
     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
 	  start_agent;
 	}
 else
   start_agent;
 fi
-
-# 2010.10.03
-#KDEWM=/usr/bin/awesome;export KDEWM
 
 # set up rbenv
 eval "$(rbenv init -)"
@@ -32,9 +27,8 @@ export PYTHONPATH=$HOME/lib/python2.7/site-packages
 export PATH=$HOME/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$PATH
 export MANPATH=$HOME/share/man:$MANPATH
 
-#####
+# start x server if local connection
 SSH=`env | grep SSH_CONNECTION`
-#RUNLEVEL=`runlevel | cut -f2 -d' '`
 if [ -z "$SSH" ]; then
    if [ -z $DISPLAY ]; then
        startx
