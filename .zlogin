@@ -24,7 +24,7 @@ eval "$(rbenv init -)"
 export GOPATH=$HOME/.golib
 export PYTHONPATH=$HOME/lib/python2.7/site-packages
 
-export PATH=$HOME/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$PATH
+export PATH=$HOME/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$HOME/.cabal/bin:$PATH
 export MANPATH=$HOME/share/man:$MANPATH
 
 # start x server if local connection
