@@ -22,6 +22,16 @@ fi
 # 2010.10.03
 #KDEWM=/usr/bin/awesome;export KDEWM
 
+# set up rbenv
+eval "$(rbenv init -)"
+
+# paths
+export GOPATH=$HOME/.golib
+export PYTHONPATH=$HOME/lib/python2.7/site-packages
+
+export PATH=$HOME/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$PATH
+export MANPATH=$HOME/share/man:$MANPATH
+
 #####
 SSH=`env | grep SSH_CONNECTION`
 #RUNLEVEL=`runlevel | cut -f2 -d' '`
