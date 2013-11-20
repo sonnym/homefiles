@@ -22,10 +22,10 @@ eval "$(rbenv init -)"
 
 # paths
 export GOPATH=$HOME/.golib
-export PYTHONPATH=$HOME/lib/python2.7/site-packages
+export PYTHONPATH=$HOME/usr/lib/python2.7/site-packages
 
-export PATH=$HOME/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$HOME/.cabal/bin:$PATH
-export MANPATH=$HOME/share/man:$MANPATH
+export PATH=$HOME/usr/bin:$HOME/.rbenv/bin:$HOME/src/go/bin:$GOPATH:$HOME/.cabal/bin:$PATH
+export MANPATH=$HOME/usr/share/man:$MANPATH
 
 # start x server if local connection
 SSH=`env | grep SSH_CONNECTION`
