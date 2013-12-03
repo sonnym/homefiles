@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/elm.vim"]
 	path = .vim/bundle/elm.vim
 	url = https://github.com/lambdatoast/elm.vim.git
+[submodule ".ruby-build"]
+	path = .ruby-build
+	url = git://github.com/sstephenson/ruby-build.git
