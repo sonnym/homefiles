@@ -16,12 +16,12 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bin/heroku_toolbelt"]
-	path = bin/heroku_toolbelt
-	url = https://github.com/heroku/heroku
 [submodule ".vim/bundle/elm.vim"]
 	path = .vim/bundle/elm.vim
 	url = https://github.com/lambdatoast/elm.vim.git
 [submodule ".ruby-build"]
 	path = .ruby-build
 	url = git://github.com/sstephenson/ruby-build.git
+[submodule "usr/bin/heroku-cli"]
+	path = usr/bin/heroku-cli
+	url = git@github.com:heroku/heroku.git
