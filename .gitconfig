@@ -1,5 +1,4 @@
 [core]
-	pager = vim -
 	excludesfile = ~/.gitignore.global
 [user]
 	name = sonnym
