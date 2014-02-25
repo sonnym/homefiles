@@ -15,3 +15,5 @@
 	prompt = false
 [color]
 	diff = auto
+[remote "origin"]
+  tagopt = --tags
