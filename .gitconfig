@@ -1,19 +1,23 @@
 [core]
 	excludesfile = ~/.gitignore.global
+
 [user]
 	name = sonnym
 	email = michaud.sonny@gmail.com
+
 [fetch]
   prune = true
 [pull]
 	rebase = preserve
 [push]
 	default = upstream
+
 [diff]
 	tool = vimdiff
 [difftool]
 	prompt = false
 [color]
 	diff = auto
+
 [remote "origin"]
   tagopt = --tags
