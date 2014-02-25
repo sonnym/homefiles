@@ -3,6 +3,8 @@
 [user]
 	name = sonnym
 	email = michaud.sonny@gmail.com
+[fetch]
+  prune = true
 [pull]
 	rebase = preserve
 [push]
