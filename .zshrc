@@ -33,3 +33,5 @@ setopt interactive_comments
 
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# custom git function to increase branch command verbosity
+git() { if [[ $@ == "branch" ]]; then; command git branch -v; else; command git "$@"; fi; }
