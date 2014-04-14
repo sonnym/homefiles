@@ -1,9 +1,9 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
-	url = https://github.com/robbyrussel/oh-my-zsh.git
+	url = git://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".rbenv"]
 	path = .rbenv
-	url = https://github.com/sstephenson/rbenv.git
+	url = git://github.com/sstephenson/rbenv.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/vim-racket
 	url = git://github.com/wlangstroth/vim-racket.git
@@ -15,13 +15,13 @@
 	url = git://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git://github.com/scrooloose/nerdtree.git
 [submodule ".vim/bundle/elm.vim"]
 	path = .vim/bundle/elm.vim
-	url = https://github.com/lambdatoast/elm.vim.git
+	url = git://github.com/lambdatoast/elm.vim.git
 [submodule ".ruby-build"]
 	path = .ruby-build
 	url = git://github.com/sstephenson/ruby-build.git
 [submodule "usr/bin/heroku-cli"]
 	path = usr/bin/heroku-cli
-	url = git@github.com:heroku/heroku.git
+	url = git://github.com/heroku/heroku.git
