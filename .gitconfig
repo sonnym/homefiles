@@ -36,5 +36,8 @@
 [color]
 	diff = auto
 
+[color "branch"]
+	upstream = red
+
 [remote "origin"]
   tagopt = --tags
