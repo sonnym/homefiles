@@ -28,10 +28,11 @@
 [diff]
 	mnemonicprefix = true
 	algorithm = histogram
-
 	tool = vimdiff
+
 [difftool]
 	prompt = false
+
 [color]
 	diff = auto
 
