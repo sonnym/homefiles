@@ -22,9 +22,6 @@ plugins=(npm rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
-# Load custom theme
-source $HOME/.zsh/themes/hybrid.zsh-theme
-
 # Customize to your needs...
 unsetopt correct_all
 
@@ -32,6 +29,9 @@ unsetopt correct_all
 setopt interactive_comments
 
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load custom theme
+source $HOME/.zsh/themes/hybrid.zsh-theme
 
 # custom git function to increase branch command verbosity
 git() { if [[ $@ == "branch" ]]; then; command git branch -vv; else; command git "$@"; fi; }
