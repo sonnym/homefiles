@@ -35,3 +35,16 @@ source $HOME/.zsh/themes/hybrid.zsh-theme
 
 # custom git function to increase branch command verbosity
 git() { if [[ $@ == "branch" ]]; then; command git branch -vv; else; command git "$@"; fi; }
+
+# custom rake & spring w/ binstubs
+rake() { check_for_binstub "rake" "$*[1,-1"] }
+spring() { check_for_binstub "spring" "$*[1,-1]" }
+
+check_for_binstub() {
+  if [[ -f "bin/$1" ]]
+  then
+    command "bin/$1" "$2"
+  else
+    command "$1" "$2"
+  fi
+}
