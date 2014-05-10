@@ -43,8 +43,9 @@ set wildmode=longest,list
 filetype plugin on
 
 " display extra whitespace at the end of the line except when typing
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
-match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 
 colorscheme asmdev
 
