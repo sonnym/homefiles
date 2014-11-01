@@ -5,6 +5,9 @@
 	name = sonnym
 	email = michaud.sonny@gmail.com
 
+[alias]
+  sup = submodule foreach 'git fetch && git submodule update --remote --checkout'
+
 [fetch]
   prune = true
 [pull]
