@@ -25,3 +25,6 @@
 [submodule "usr/bin/heroku-cli"]
 	path = usr/bin/heroku-cli
 	url = git://github.com/heroku/heroku.git
+[submodule ".password-store"]
+	path = .password-store
+	url = git@bitbucket.org:sonnym/password-store.git
