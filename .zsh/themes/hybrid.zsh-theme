@@ -1,5 +1,8 @@
 #
 autoload -Uz vcs_info
+autoload colors && colors;
+
+setopt prompt_subst
 
 zstyle ':vcs_info:*' enable hg git
 
