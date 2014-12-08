@@ -12,3 +12,5 @@ function _check_for_and_source_venv {
 }
 
 chpwd_functions+=(_check_for_and_source_venv)
+
+_check_for_and_source_venv
