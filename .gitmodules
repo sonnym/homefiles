@@ -25,3 +25,6 @@
 [submodule ".password-store"]
 	path = .password-store
 	url = git@bitbucket.org:sonnym/password-store.git
+[submodule ".vim/bundle/ZoomWin"]
+	path = .vim/bundle/ZoomWin
+	url = git://git@github.com/vim-scripts/ZoomWin
