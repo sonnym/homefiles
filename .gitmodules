@@ -19,9 +19,6 @@
 [submodule ".ruby-build"]
 	path = .ruby-build
 	url = git://github.com/sstephenson/ruby-build.git
-[submodule "usr/bin/heroku-cli"]
-	path = usr/bin/heroku-cli
-	url = git://github.com/heroku/heroku.git
 [submodule ".password-store"]
 	path = .password-store
 	url = git@bitbucket.org:sonnym/password-store.git
