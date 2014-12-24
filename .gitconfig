@@ -6,7 +6,7 @@
 	email = michaud.sonny@gmail.com
 
 [alias]
-  sup = submodule foreach 'git fetch && git checkout -q origin/master && echo'
+  sup = submodule foreach 'git fetch && git checkout origin/master && echo'
 
 [fetch]
   prune = true
