@@ -56,3 +56,5 @@ if &diff
   highlight DiffDelete ctermbg=black
   highlight DiffChange ctermbg=black
 endif
+
+set exrc
