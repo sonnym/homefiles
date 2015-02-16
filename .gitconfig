@@ -1,6 +1,6 @@
 [core]
 	excludesfile = ~/.gitignore.global
-	pager = less --tabs 2
+	pager = less --tabs=2
 
 [user]
 	name = sonnym
