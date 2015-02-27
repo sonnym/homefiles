@@ -115,7 +115,7 @@ plugin=battery
 zvalue=0
 
 [Containments][1][Applets][6][Configuration][Applets][14][PopupApplet]
-DialogHeight=166
+DialogHeight=160
 DialogWidth=300
 
 [Containments][1][Applets][6][Configuration][Applets][14][Shortcuts]
@@ -324,7 +324,7 @@ RightButton;NoModifier=contextmenu
 
 [Containments][54][Applets][57]
 geometry=0,2,61,22
-immutability=1
+immutability=2
 plugin=pager
 zvalue=0
 
@@ -335,8 +335,8 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1657,22
-immutability=2
+geometry=65,2,1633,22
+immutability=1
 plugin=tasks
 zvalue=0
 
@@ -347,24 +347,25 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1726,2,74,22
-immutability=2
+geometry=1702,2,74,22
+immutability=1
 plugin=systemtray
 zvalue=0
 
 [Containments][54][Applets][59][Configuration]
 DefaultAppletsAdded=true
+ShowApplicationStatus=true
+ShowCommunications=true
+ShowHardware=true
+ShowSystemServices=true
+ShowUnknown=true
+alwaysShown=
+hidden=
 
 [Containments][54][Applets][59][Configuration][Applets][61]
 geometry=0,0,22,22
 immutability=1
 plugin=org.kde.networkmanagement
-zvalue=0
-
-[Containments][54][Applets][59][Configuration][Applets][62]
-geometry=0,0,22,22
-immutability=1
-plugin=notifier
 zvalue=0
 
 [Containments][54][Applets][59][Configuration][Applets][63]
@@ -379,12 +380,16 @@ immutability=1
 plugin=battery
 zvalue=0
 
+[Containments][54][Applets][59][Configuration][Applets][64][PopupApplet]
+DialogHeight=160
+DialogWidth=300
+
 [Containments][54][Applets][59][LayoutInformation]
 Order=2
 
 [Containments][54][Applets][60]
-geometry=1804,2,68,22
-immutability=2
+geometry=1780,2,68,22
+immutability=1
 plugin=digital-clock
 zvalue=0
 
@@ -417,6 +422,9 @@ geometry=1876,2,44,22
 immutability=2
 plugin=lockout
 zvalue=0
+
+[Containments][54][Applets][65][LayoutInformation]
+Order=4
 
 [Containments][54][Configuration]
 maximumSize=1920,24
