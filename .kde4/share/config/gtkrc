@@ -1,11 +1,7 @@
-# created by KDE, Thu Feb 26 20:34:34 2015
+# created by KDE, Thu Feb 26 22:00:25 2015
 #
 # If you do not want KDE to override your GTK settings, select
 # Appearance -> Colors in the System Settings and disable the checkbox
 # "Apply colors to non-KDE4 applications"
 #
 #
-include "/usr/share/themes/oxygen-gtk/gtk-2.0/gtkrc"
-
-gtk-theme-name="oxygen-gtk"
-
