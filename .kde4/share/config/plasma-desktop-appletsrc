@@ -99,7 +99,7 @@ plugin=org.kde.notifications
 zvalue=0
 
 [Containments][1][Applets][6][Configuration][Applets][13][Configuration][General]
-CustomPosition=1410,961
+CustomPosition=1409,961
 
 [Containments][1][Applets][6][Configuration][Applets][13][PopupApplet]
 DialogHeight=90
@@ -341,8 +341,7 @@ plugin=tasks
 zvalue=0
 
 [Containments][54][Applets][58][Configuration][Launchers]
-Items=preferred://browser?wmClass=%20
-browser=preferred://browser, , ,\s
+Items=
 
 [Containments][54][Applets][58][LayoutInformation]
 Order=1
