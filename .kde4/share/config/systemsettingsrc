@@ -1,0 +1,31 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[ConfigDialog]
+Height 1080=242
+Width 1920=387
+
+[DownloadDialog Settings]
+Height 1080=1029
+Width 1920=1920
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KPropertiesDialog]
+Height 1080=363
+Width 1920=387
+
+[Main]
+ActiveView=classic_mode
+
+[MainWindow]
+Height 1080=1081
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1921
+
+[classic_mode]
+autoExpandOneLevel=true
+viewLayout=302,1617
