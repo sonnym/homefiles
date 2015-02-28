@@ -102,7 +102,7 @@ zvalue=0
 CustomPosition=1409,961
 
 [Containments][1][Applets][6][Configuration][Applets][13][PopupApplet]
-DialogHeight=90
+DialogHeight=96
 DialogWidth=332
 
 [Containments][1][Applets][6][Configuration][Applets][13][Shortcuts]
@@ -373,6 +373,10 @@ geometry=0,0,22,22
 immutability=1
 plugin=org.kde.notifications
 zvalue=0
+
+[Containments][54][Applets][59][Configuration][Applets][63][PopupApplet]
+DialogHeight=90
+DialogWidth=332
 
 [Containments][54][Applets][59][Configuration][Applets][64]
 geometry=0,0,22,22
