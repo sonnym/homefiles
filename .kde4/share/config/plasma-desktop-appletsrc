@@ -46,7 +46,7 @@ showWindowIcons=true
 Order=0
 
 [Containments][1][Applets][5]
-geometry=71,2,1609,18
+geometry=71,2,1631,18
 immutability=2
 plugin=tasks
 zvalue=6
@@ -71,7 +71,7 @@ Items=
 Order=1
 
 [Containments][1][Applets][6]
-geometry=1684,2,132,18
+geometry=1706,2,110,18
 immutability=2
 plugin=systemtray
 zvalue=2
@@ -335,7 +335,7 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1657,22
+geometry=65,2,1631,22
 immutability=2
 plugin=tasks
 zvalue=0
@@ -347,7 +347,7 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1726,2,74,22
+geometry=1700,2,100,22
 immutability=2
 plugin=systemtray
 zvalue=0
@@ -359,7 +359,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=
+alwaysShown=battery,org.kde.networkmanagement,kmix
 hidden=
 
 [Containments][54][Applets][59][Configuration][Applets][61]
