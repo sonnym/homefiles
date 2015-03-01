@@ -50,3 +50,6 @@
   clean = gpg2 --encrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent --output /proc/$$/fd/1 %f 2>/dev/null
   smudge = gpg2 --decrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent 2>/dev/null
   required
+
+[diff "pgp-crypt"]
+  textconv = gpg2 --encrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent --output /proc/$$/fd/1
