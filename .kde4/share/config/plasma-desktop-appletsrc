@@ -205,8 +205,8 @@ lastScreen=1
 location=0
 plugin=desktop
 screen=1
-wallpaperplugin=image
-wallpaperpluginmode=SingleImage
+wallpaperplugin=color
+wallpaperpluginmode=
 zvalue=0
 
 [Containments][17][Wallpaper][color]
@@ -335,7 +335,7 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1631,22
+geometry=65,2,1605,22
 immutability=2
 plugin=tasks
 zvalue=0
@@ -347,7 +347,7 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1700,2,100,22
+geometry=1674,2,126,22
 immutability=2
 plugin=systemtray
 zvalue=0
