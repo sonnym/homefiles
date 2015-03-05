@@ -7,7 +7,7 @@
 	email = michaud.sonny@gmail.com
 
 [alias]
-  sup = submodule foreach 'git fetch && git rebase origin/master && echo'
+  sup = submodule foreach 'cd $toplevel && git submodule update --remote --rebase -- $path && echo'
 
 [fetch]
   prune = true
