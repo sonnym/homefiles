@@ -1,3 +1,5 @@
+CASE_SENSITIVE="true"
+
 zmodload -i zsh/complist
 
 zstyle ':completion:*' list-colors ''
