@@ -31,3 +31,6 @@
 [submodule ".secrets"]
 	path = .secrets
 	url = git@bitbucket.org:sonnym/secrets.git
+[submodule ".nvm"]
+	path = .nvm
+	url = git@github.com:creationix/nvm.git

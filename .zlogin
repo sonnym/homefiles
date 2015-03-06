@@ -7,3 +7,6 @@ export MANPATH=$HOME/usr/share/man:$MANPATH
 
 # set up rbenv
 eval "$(rbenv init -)"
+
+# set up nvm
+source $HOME/.nvm/nvm.sh
