@@ -34,3 +34,6 @@
 [submodule ".nvm"]
 	path = .nvm
 	url = git@github.com:creationix/nvm.git
+[submodule ".zsh/plugins/zsh-completions"]
+	path = .zsh/plugins/zsh-completions
+	url = git@github.com:zsh-users/zsh-completions.git
