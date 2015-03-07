@@ -359,7 +359,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=battery,Bluetooth,org.kde.networkmanagement,kmix
+alwaysShown=battery,Bluetooth,KTorrent,org.kde.networkmanagement,kmix
 hidden=
 
 [Containments][54][Applets][59][Configuration][Applets][61]
@@ -385,7 +385,7 @@ plugin=battery
 zvalue=0
 
 [Containments][54][Applets][59][Configuration][Applets][64][PopupApplet]
-DialogHeight=160
+DialogHeight=154
 DialogWidth=300
 
 [Containments][54][Applets][59][LayoutInformation]
