@@ -1,15 +1,26 @@
+[submodule ".password-store"]
+	path = .password-store
+	url = git@bitbucket.org:sonnym/password-store.git
+[submodule ".secrets"]
+	path = .secrets
+	url = git@bitbucket.org:sonnym/secrets.git
+
 [submodule ".rbenv"]
 	path = .rbenv
 	url = git://github.com/sstephenson/rbenv.git
+[submodule ".nvm"]
+	path = .nvm
+	url = git://github.com/creationix/nvm.git
+
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/vim-racket
 	url = git://github.com/wlangstroth/vim-racket.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule ".zsh/plugins/zsh-syntax-highlighting"]
-	path = .zsh/plugins/zsh-syntax-highlighting
-	url = git://github.com/sonnym/zsh-syntax-highlighting.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -19,21 +30,13 @@
 [submodule ".ruby-build"]
 	path = .ruby-build
 	url = git://github.com/sstephenson/ruby-build.git
-[submodule ".password-store"]
-	path = .password-store
-	url = git@bitbucket.org:sonnym/password-store.git
 [submodule ".vim/bundle/ZoomWin"]
 	path = .vim/bundle/ZoomWin
-	url = git://git@github.com/vim-scripts/ZoomWin
-[submodule ".vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
-	url = git@github.com:tpope/vim-pathogen.git
-[submodule ".secrets"]
-	path = .secrets
-	url = git@bitbucket.org:sonnym/secrets.git
-[submodule ".nvm"]
-	path = .nvm
-	url = git@github.com:creationix/nvm.git
+	url = git://github.com/vim-scripts/ZoomWin
+
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
-	url = git@github.com:zsh-users/zsh-completions.git
+	url = git://github.com/zsh-users/zsh-completions.git
+[submodule ".zsh/plugins/zsh-syntax-highlighting"]
+	path = .zsh/plugins/zsh-syntax-highlighting
+	url = git://github.com/sonnym/zsh-syntax-highlighting.git
