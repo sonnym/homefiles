@@ -407,10 +407,11 @@ displayHolidays=true
 holidaysRegions=us_en-us
 holidaysRegionsDaysOff=us_en-us
 plainClockDrawShadow=true
-plainClockFont=Oxygen-Sans,21,-1,5,50,0,0,0,0,0
+plainClockFont=Oxygen-Sans,11,-1,5,50,0,0,0,0,0
 showSeconds=true
 showTimezone=false
-timeZones=UTC
+timeZones=America/New_York
+timezone=Local
 useCustomColor=false
 useCustomShadowColor=false
 
@@ -419,7 +420,7 @@ Order=3
 
 [Containments][54][Applets][60][PopupApplet]
 DialogHeight=226
-DialogWidth=412
+DialogWidth=418
 
 [Containments][54][Applets][65]
 geometry=1876,2,44,22
