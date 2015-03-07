@@ -359,7 +359,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=battery,org.kde.networkmanagement,kmix
+alwaysShown=battery,Bluetooth,org.kde.networkmanagement,kmix
 hidden=
 
 [Containments][54][Applets][59][Configuration][Applets][61]
