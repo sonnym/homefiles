@@ -25,6 +25,7 @@ ZSH_THEME_VCS='${vcs_info_msg_0_}'
 PROMPT="$ZSH_THEME_USER@$ZSH_THEME_HOSTNAME:$ZSH_THEME_PATH $ZSH_THEME_RUBY $ZSH_THEME_VCS %(!.#.$) "
 
 ZSH_HIGHLIGHT_STYLES[comment]=fg=240
+ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=156
 ZSH_HIGHLIGHT_STYLES[globbing]=fg=white
 ZSH_HIGHLIGHT_STYLES[history-expansion]=fg=white
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
