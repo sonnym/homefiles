@@ -1,3 +1,9 @@
+# set up rbenv
+eval "$(rbenv init -)"
+
+# set up nvm
+source $HOME/.nvm/nvm.sh
+
 # customizations
 for file in ~/.zsh/custom/*; do
   source "$file"
