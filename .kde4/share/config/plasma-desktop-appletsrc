@@ -410,7 +410,7 @@ plainClockDrawShadow=true
 plainClockFont=Oxygen-Sans,11,-1,5,50,0,0,0,0,0
 showSeconds=true
 showTimezone=false
-timeZones=America/New_York
+timeZones=
 timezone=Local
 useCustomColor=false
 useCustomShadowColor=false
@@ -420,7 +420,7 @@ Order=3
 
 [Containments][54][Applets][60][PopupApplet]
 DialogHeight=226
-DialogWidth=418
+DialogWidth=412
 
 [Containments][54][Applets][65]
 geometry=1876,2,44,22
