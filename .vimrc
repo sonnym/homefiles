@@ -3,7 +3,7 @@ call pathogen#infect()
 
 set bg=dark
 set showfulltag
-set laststatus=1
+set laststatus=2
 
 " filetypes
 autocmd BufNewFile,BufRead *.scss set ft=sass
