@@ -19,23 +19,24 @@ autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
 " indentation
 set tabstop=2
-set expandtab
 set softtabstop=2
 set shiftwidth=2
-
-set noea
+set expandtab
+set cindent
 set autoindent
 set copyindent
-set incsearch
-set wrap!
-set smartcase
-set hlsearch
-set title
-set mouse=
-
-set cindent
 set indentexpr=
 set indentkeys=
+
+" search
+set incsearch
+set smartcase
+set hlsearch
+
+set noea
+set wrap!
+set title
+set mouse=
 
 " coerce filename completion to shell-like behavior
 set wildmenu
