@@ -41,6 +41,10 @@ set indentkeys=
 set wildmenu
 set wildmode=longest,list
 
+" disable help and ex-mode
+nnoremap <F1> <nop>
+nnoremap Q <nop>
+
 filetype plugin on
 
 " display extra whitespace at the end of the line except when typing
