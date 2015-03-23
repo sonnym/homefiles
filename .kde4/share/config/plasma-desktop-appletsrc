@@ -102,7 +102,7 @@ zvalue=0
 CustomPosition=1409,961
 
 [Containments][1][Applets][6][Configuration][Applets][13][PopupApplet]
-DialogHeight=112
+DialogHeight=96
 DialogWidth=332
 
 [Containments][1][Applets][6][Configuration][Applets][13][Shortcuts]
