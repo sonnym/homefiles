@@ -1,0 +1,197 @@
+[ColorEffects:Inactive]
+Color=0,0,0
+ColorAmount=1
+ColorEffect=1
+ContrastAmount=0
+ContrastEffect=0
+IntensityAmount=-1
+IntensityEffect=0
+
+[Colors:Button]
+DecorationFocus=0,64,64
+DecorationHover=0,64,64
+
+[Colors:Selection]
+BackgroundNormal=0,64,0
+DecorationFocus=0,64,64
+DecorationHover=0,64,64
+ForegroundInactive=0,64,64
+
+[Colors:Tooltip]
+DecorationFocus=0,64,64
+DecorationHover=0,64,64
+
+[Colors:View]
+DecorationFocus=0,64,64
+DecorationHover=0,64,64
+
+[Colors:Window]
+DecorationFocus=0,64,64
+DecorationHover=0,64,64
+
+[DesktopIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.7
+Animated=true
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
+[DialogIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
+[General]
+ColorScheme=openSUSE
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=none
+desktopFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+fixed=Monospace,9,-1,5,50,0,0,0,0,0
+font=Sans Serif,9,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+smallestReadableFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+taskbarFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+widgetStyle=breeze
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+contrast=4
+
+[KFileDialog Settings]
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Previews=false
+Show Bookmarks=false
+Show Full Path=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=112
+View Style=Simple
+listViewIconSize=0
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[MainToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
+[PanelIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.7
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
+[SmallIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=16
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
+
+[ToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
+[WM]
+activeBackground=0,64,0
+activeBlend=0,64,64
+activeFont=Sans Serif,8,-1,5,50,0,0,0,0,0
