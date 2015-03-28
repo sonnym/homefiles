@@ -40,3 +40,6 @@
 [submodule ".zsh/plugins/zsh-syntax-highlighting"]
 	path = .zsh/plugins/zsh-syntax-highlighting
 	url = git://github.com/sonnym/zsh-syntax-highlighting.git
+[submodule ".elmenv"]
+	path = .elmenv
+	url = git@github.com:sonnym/elmenv.git
