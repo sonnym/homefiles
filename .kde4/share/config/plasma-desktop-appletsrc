@@ -46,7 +46,7 @@ showWindowIcons=true
 Order=0
 
 [Containments][1][Applets][5]
-geometry=71,2,1631,18
+geometry=71,2,1653,18
 immutability=2
 plugin=tasks
 zvalue=6
@@ -71,7 +71,7 @@ Items=
 Order=1
 
 [Containments][1][Applets][6]
-geometry=1706,2,110,18
+geometry=1728,2,88,18
 immutability=2
 plugin=systemtray
 zvalue=2
@@ -310,7 +310,7 @@ activity=
 activityId=
 desktop=-1
 formfactor=2
-geometry=0,-84,1920,24
+geometry=0,-84,1366,24
 immutability=1
 lastDesktop=-1
 lastScreen=0
@@ -335,10 +335,23 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1605,22
+geometry=65,2,1077,22
 immutability=2
 plugin=tasks
 zvalue=0
+
+[Containments][54][Applets][58][Configuration]
+forceRows=false
+groupWhenFull=true
+groupingStrategy=0
+highlightWindows=false
+maxRows=2
+showOnlyCurrentActivity=true
+showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=false
+showOnlyMinimized=false
+showToolTip=true
+sortingStrategy=2
 
 [Containments][54][Applets][58][Configuration][Launchers]
 Items=
@@ -347,7 +360,7 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1674,2,126,22
+geometry=1146,2,100,22
 immutability=2
 plugin=systemtray
 zvalue=0
@@ -392,7 +405,7 @@ DialogWidth=300
 Order=2
 
 [Containments][54][Applets][60]
-geometry=1804,2,68,22
+geometry=1250,2,68,22
 immutability=2
 plugin=digital-clock
 zvalue=0
@@ -423,7 +436,7 @@ DialogHeight=226
 DialogWidth=412
 
 [Containments][54][Applets][65]
-geometry=1876,2,44,22
+geometry=1322,2,44,22
 immutability=2
 plugin=lockout
 zvalue=0
@@ -432,8 +445,8 @@ zvalue=0
 Order=4
 
 [Containments][54][Configuration]
-maximumSize=1920,24
-minimumSize=1920,24
+maximumSize=1366,24
+minimumSize=1366,24
 
 [Containments][8]
 ActionPluginsSource=Global
