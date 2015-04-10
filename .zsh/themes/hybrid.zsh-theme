@@ -19,10 +19,9 @@ precmd () { vcs_info }
 ZSH_THEME_USER='%{$fg[cyan]%}%n%{$reset_color%}'
 ZSH_THEME_HOSTNAME='%{$fg[yellow]%}%M'
 ZSH_THEME_PATH='%{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}'
-ZSH_THEME_RUBY='%{$fg[red]%}rb:($(rbenv_prompt_info))%{$reset_color%}'
 ZSH_THEME_VCS='${vcs_info_msg_0_}'
 
-PROMPT="$ZSH_THEME_USER@$ZSH_THEME_HOSTNAME:$ZSH_THEME_PATH $ZSH_THEME_RUBY $ZSH_THEME_VCS %(!.#.$) "
+PROMPT="$ZSH_THEME_USER@$ZSH_THEME_HOSTNAME:$ZSH_THEME_PATH $ZSH_THEME_VCS %(!.#.$) "
 
 ZSH_HIGHLIGHT_STYLES[comment]=fg=240
 ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=156
