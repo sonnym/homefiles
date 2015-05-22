@@ -102,7 +102,7 @@ zvalue=0
 CustomPosition=1409,961
 
 [Containments][1][Applets][6][Configuration][Applets][13][PopupApplet]
-DialogHeight=96
+DialogHeight=72
 DialogWidth=332
 
 [Containments][1][Applets][6][Configuration][Applets][13][Shortcuts]
@@ -115,7 +115,7 @@ plugin=battery
 zvalue=0
 
 [Containments][1][Applets][6][Configuration][Applets][14][PopupApplet]
-DialogHeight=160
+DialogHeight=148
 DialogWidth=300
 
 [Containments][1][Applets][6][Configuration][Applets][14][Shortcuts]
@@ -310,7 +310,7 @@ activity=
 activityId=
 desktop=-1
 formfactor=2
-geometry=0,-84,1366,24
+geometry=0,-84,1920,24
 immutability=1
 lastDesktop=-1
 lastScreen=0
@@ -335,7 +335,7 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1077,22
+geometry=65,2,1633,22
 immutability=2
 plugin=tasks
 zvalue=0
@@ -360,7 +360,7 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1146,2,100,22
+geometry=1702,2,100,22
 immutability=2
 plugin=systemtray
 zvalue=0
@@ -388,7 +388,7 @@ plugin=org.kde.notifications
 zvalue=0
 
 [Containments][54][Applets][59][Configuration][Applets][63][PopupApplet]
-DialogHeight=90
+DialogHeight=72
 DialogWidth=332
 
 [Containments][54][Applets][59][Configuration][Applets][64]
@@ -398,14 +398,14 @@ plugin=battery
 zvalue=0
 
 [Containments][54][Applets][59][Configuration][Applets][64][PopupApplet]
-DialogHeight=160
+DialogHeight=148
 DialogWidth=300
 
 [Containments][54][Applets][59][LayoutInformation]
 Order=2
 
 [Containments][54][Applets][60]
-geometry=1250,2,68,22
+geometry=1806,2,66,22
 immutability=2
 plugin=digital-clock
 zvalue=0
@@ -436,7 +436,7 @@ DialogHeight=226
 DialogWidth=412
 
 [Containments][54][Applets][65]
-geometry=1322,2,44,22
+geometry=1876,2,44,22
 immutability=2
 plugin=lockout
 zvalue=0
@@ -445,8 +445,8 @@ zvalue=0
 Order=4
 
 [Containments][54][Configuration]
-maximumSize=1366,24
-minimumSize=1366,24
+maximumSize=1920,24
+minimumSize=1920,24
 
 [Containments][8]
 ActionPluginsSource=Global

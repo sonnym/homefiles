@@ -70,19 +70,19 @@ Size=32
 [General]
 ColorScheme=openSUSE
 XftAntialias=true
-XftHintStyle=hintfull
-XftSubPixel=none
+XftHintStyle=hintmedium
+XftSubPixel=rgb
 desktopFont=Sans Serif,9,-1,5,50,0,0,0,0,0
-fixed=Monospace,9,-1,5,50,0,0,0,0,0
-font=Sans Serif,9,-1,5,50,0,0,0,0,0
-menuFont=Sans Serif,9,-1,5,50,0,0,0,0,0
-smallestReadableFont=Sans Serif,8,-1,5,50,0,0,0,0,0
-taskbarFont=Sans Serif,8,-1,5,50,0,0,0,0,0
-toolBarFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+fixed=Monospace,10,-1,5,50,0,0,0,0,0
+font=Sans Serif,10,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+taskbarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 widgetStyle=breeze
 
 [Icons]
-Theme=breeze-dark
+Theme=oxygen
 
 [KDE]
 ShowIconsInMenuItems=true
@@ -104,7 +104,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=115
+Speedbar Width=116
 View Style=Simple
 listViewIconSize=0
 
@@ -194,4 +194,4 @@ Size=22
 [WM]
 activeBackground=0,64,0
 activeBlend=0,64,64
-activeFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
