@@ -115,7 +115,7 @@ plugin=battery
 zvalue=0
 
 [Containments][1][Applets][6][Configuration][Applets][14][PopupApplet]
-DialogHeight=148
+DialogHeight=149
 DialogWidth=300
 
 [Containments][1][Applets][6][Configuration][Applets][14][Shortcuts]
@@ -335,7 +335,7 @@ hideWhenSingleDesktop=true
 Order=0
 
 [Containments][54][Applets][58]
-geometry=65,2,1633,22
+geometry=65,2,1659,22
 immutability=2
 plugin=tasks
 zvalue=0
@@ -360,10 +360,10 @@ Items=
 Order=1
 
 [Containments][54][Applets][59]
-geometry=1702,2,100,22
+geometry=1728,2,74,22
 immutability=2
 plugin=systemtray
-zvalue=0
+zvalue=6
 
 [Containments][54][Applets][59][Configuration]
 DefaultAppletsAdded=true
@@ -372,7 +372,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=battery,Bluetooth,KTorrent,org.kde.networkmanagement,kmix
+alwaysShown=battery,kmix
 hidden=
 
 [Containments][54][Applets][59][Configuration][Applets][61]
@@ -398,7 +398,7 @@ plugin=battery
 zvalue=0
 
 [Containments][54][Applets][59][Configuration][Applets][64][PopupApplet]
-DialogHeight=148
+DialogHeight=149
 DialogWidth=300
 
 [Containments][54][Applets][59][LayoutInformation]
