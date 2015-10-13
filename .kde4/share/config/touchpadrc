@@ -1,7 +1,0 @@
-[parameters]
-CircScrollDelta=5.73
-Coasting=false
-MaxTapMove=3.3
-OneFingerTapButton=NoButton
-TapAndDragGesture=false
-TwoFingerTapButton=NoButton
