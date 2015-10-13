@@ -43,3 +43,6 @@
 [submodule ".elmenv"]
 	path = .elmenv
 	url = git@github.com:sonnym/elmenv.git
+[submodule "usr/bin/heroku_toolbelt"]
+	path = usr/bin/heroku_toolbelt
+	url = git@github.com:heroku/heroku.git
