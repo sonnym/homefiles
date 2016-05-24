@@ -13,3 +13,5 @@ defscrollback 1000
 # store hardcopy and log files in same location
 hardcopydir "$HOME/.screen"
 logfile "$HOME/.screen/screenlog.%n"
+
+termcapinfo * ti=:te=
