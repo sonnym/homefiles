@@ -2,7 +2,7 @@
 
 engine {
   Name stockfish
-  Cmd  stockfish20
+  Cmd  stockfish
   Args {}
   Dir  .
   Elo  0
