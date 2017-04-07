@@ -1,0 +1,14 @@
+# Analysis engines list file for Scid 4.6.2 with UCI support
+
+engine {
+  Name stockfish
+  Cmd  stockfish20
+  Args {}
+  Dir  .
+  Elo  0
+  Time 1491084733
+  URL  {}
+  UCI 1
+  UCIoptions {}
+}
+
