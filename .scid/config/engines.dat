@@ -6,9 +6,9 @@ engine {
   Args {}
   Dir  .
   Elo  0
-  Time 1491084733
+  Time 1491639874
   URL  {}
   UCI 1
-  UCIoptions {}
+  UCIoptions {{Hash 16} {MultiPV 3} {{Debug Log File} {}} {Contempt 0} {Threads 4} {{Skill Level} 20} {{Move Overhead} 30} {{Minimum Thinking Time} 20} {{Slow Mover} 89} {nodestime 0} {SyzygyPath <empty>} {SyzygyProbeDepth 1} {Syzygy50MoveRule true} {SyzygyProbeLimit 6}}
 }
 
