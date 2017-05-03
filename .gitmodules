@@ -46,3 +46,6 @@
 [submodule "usr/bin/heroku_toolbelt"]
 	path = usr/bin/heroku_toolbelt
 	url = git@github.com:heroku/heroku.git
+[submodule ".fonts"]
+	path = .fonts
+	url = git@github.com:powerline/fonts.git
