@@ -2,7 +2,7 @@
 AntiAliasFonts=false
 BoldIntense=true
 ColorScheme=GreenOnBlack
-Font=Monospace,8,-1,0,50,0,0,0,0,0
+Font=Inconsolata,8,-1,5,50,0,0,0,0,0
 
 [General]
 Command=/bin/zsh -c tmux
