@@ -1,5 +1,5 @@
 # set up nvm
-source $HOME/.nvm/nvm.sh
+source $HOME/.nvm/nvm.sh 2>/dev/null
 
 # customizations
 for file in ~/.zsh/custom/*; do
