@@ -5,19 +5,39 @@
 	path = .secrets
 	url = git@bitbucket.org:sonnym/secrets.git
 
-[submodule ".rbenv"]
-	path = .rbenv
-	url = git://github.com/sstephenson/rbenv.git
+[submodule ".elmenv"]
+	path = .elmenv
+	url = git@github.com:sonnym/elmenv.git
 [submodule ".nvm"]
 	path = .nvm
 	url = git://github.com/creationix/nvm.git
+[submodule ".rbenv"]
+	path = .rbenv
+	url = git://github.com/sstephenson/rbenv.git
+[submodule ".ruby-build"]
+	path = .ruby-build
+	url = git://github.com/sstephenson/ruby-build.git
+
+[submodule "usr/bin/heroku_toolbelt"]
+	path = usr/bin/heroku_toolbelt
+	url = git@github.com:heroku/heroku.git
+
+[submodule ".fonts"]
+	path = .fonts
+	url = git@github.com:powerline/fonts.git
 
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/vim-racket
 	url = git://github.com/wlangstroth/vim-racket.git
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = git@github.com:rust-lang/rust.vim.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
@@ -27,9 +47,6 @@
 [submodule ".vim/bundle/elm.vim"]
 	path = .vim/bundle/elm.vim
 	url = git://github.com/lambdatoast/elm.vim.git
-[submodule ".ruby-build"]
-	path = .ruby-build
-	url = git://github.com/sstephenson/ruby-build.git
 [submodule ".vim/bundle/ZoomWin"]
 	path = .vim/bundle/ZoomWin
 	url = git://github.com/vim-scripts/ZoomWin
@@ -40,18 +57,3 @@
 [submodule ".zsh/plugins/zsh-syntax-highlighting"]
 	path = .zsh/plugins/zsh-syntax-highlighting
 	url = git://github.com/sonnym/zsh-syntax-highlighting.git
-[submodule ".elmenv"]
-	path = .elmenv
-	url = git@github.com:sonnym/elmenv.git
-[submodule "usr/bin/heroku_toolbelt"]
-	path = usr/bin/heroku_toolbelt
-	url = git@github.com:heroku/heroku.git
-[submodule ".fonts"]
-	path = .fonts
-	url = git@github.com:powerline/fonts.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
-[submodule ".vim/bundle/rust.vim"]
-	path = .vim/bundle/rust.vim
-	url = git@github.com:rust-lang/rust.vim.git
