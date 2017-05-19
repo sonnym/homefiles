@@ -48,6 +48,21 @@ set wildmode=longest,list
 nnoremap <F1> <nop>
 nnoremap Q <nop>
 
+" configure statusline
+set statusline=
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+set statusline+=%f
+set statusline+=%m
+set statusline+=%h
+set statusline+=%r
+
+" configure syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 filetype plugin on
 
 " display extra whitespace at the end of the line except when typing
