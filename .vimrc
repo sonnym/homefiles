@@ -79,4 +79,8 @@ if &diff
   highlight DiffChange ctermbg=black
 endif
 
+highlight SignColumn ctermbg=234 guibg=#1c1c1c
+highlight IncSearch ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
+highlight Search ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
+
 set exrc
