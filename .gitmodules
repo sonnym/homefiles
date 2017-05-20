@@ -47,10 +47,6 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/ZoomWin"]
-	path = .vim/bundle/ZoomWin
-	url = git://github.com/vim-scripts/ZoomWin
-
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
 	url = git://github.com/zsh-users/zsh-completions.git
