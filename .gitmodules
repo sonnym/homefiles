@@ -44,9 +44,13 @@
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/vim-liquid"]
+	path = .vim/bundle/vim-liquid
+	url = git@github.com:tpope/vim-liquid.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
 	url = git://github.com/zsh-users/zsh-completions.git
