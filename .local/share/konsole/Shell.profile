@@ -1,6 +1,6 @@
 [Appearance]
 AntiAliasFonts=false
-BoldIntense=true
+BoldIntense=false
 ColorScheme=GreenOnBlack
 Font=Inconsolata,8,-1,5,50,0,0,0,0,0
 
