@@ -7,7 +7,7 @@
 	email = michaud.sonny@gmail.com
 
 [alias]
-  sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo'
+  sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo || :'
   sinit = !git submodule update --init --depth=1 $(git submodule | grep '^-' | awk '{ print $2 }')
 
 [fetch]
