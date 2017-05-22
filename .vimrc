@@ -56,14 +56,14 @@ let g:syntastic_rust_checkers = ['rustc']
 let g:syntastic_elm_checkers = ['elm_make']
 
 function! SyntasticCheckHook(errors)
+    set statusline=
+
     if !empty(a:errors)
         let g:syntastic_loc_list_height = len(a:errors)
 
 				set statusline+=%#warningmsg#
 				set statusline+=%{SyntasticStatuslineFlag()}
 				set statusline+=%*
-		else
-			set statusline=
     endif
 endfunction
 
