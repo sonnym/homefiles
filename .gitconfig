@@ -12,7 +12,6 @@
 
 [fetch]
   prune = true
-  recurseSubmodules = true
 [pull]
 	rebase = preserve
 [push]
