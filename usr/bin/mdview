@@ -1,2 +1,2 @@
 #!/bin/sh
-pandoc "$1" | w3m -T text/html
+pandoc -f markdown_github "$1" | w3m -T text/html
