@@ -52,6 +52,7 @@ nnoremap Q <nop>
 let g:syntastic_enable_highlighting = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_quiet_messages = { "level": "warnings" }
 let g:syntastic_rust_checkers = ['rustc']
 let g:syntastic_elm_checkers = ['elm_make']
 
