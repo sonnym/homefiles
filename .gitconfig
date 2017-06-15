@@ -1,11 +1,11 @@
 [core]
-	excludesfile = ~/.gitignore.global
-	pager = less --tabs=2
+  excludesfile = ~/.gitignore.global
+  pager = less --tabs=2
 
 [user]
-	name = Sonny Michaud
-	email = michaud.sonny@gmail.com
-	signingkey = 0BD7F8E6349F3C61
+  name = Sonny Michaud
+  email = michaud.sonny@gmail.com
+  signingkey = 0BD7F8E6349F3C61
 
 [alias]
   sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo || :'
@@ -14,40 +14,40 @@
 [fetch]
   prune = true
 [pull]
-	rebase = preserve
+  rebase = preserve
 [push]
-	default = upstream
-	gpgSign = if-asked
+  default = upstream
+  gpgSign = if-asked
 
 [commit]
-	gpgSign = true
+  gpgSign = true
 
 [rebase]
-	stat = true
+  stat = true
 
 [status]
-	short = true
-	branch = true
+  short = true
+  branch = true
 
 [log]
   decorate = true
 
 [help]
-	autocorrect = -1
+  autocorrect = -1
 
 [diff]
-	mnemonicprefix = true
-	algorithm = histogram
-	tool = vimdiff
+  mnemonicprefix = true
+  algorithm = histogram
+  tool = vimdiff
 
 [difftool]
-	prompt = false
+  prompt = false
 
 [color]
-	diff = auto
+  diff = auto
 
 [color "branch"]
-	upstream = red
+  upstream = red
 
 [remote "origin"]
   tagopt = --tags
