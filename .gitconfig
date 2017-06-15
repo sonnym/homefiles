@@ -5,6 +5,7 @@
 [user]
 	name = Sonny Michaud
 	email = michaud.sonny@gmail.com
+	signingkey = 0BD7F8E6349F3C61
 
 [alias]
   sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo || :'
@@ -16,6 +17,10 @@
 	rebase = preserve
 [push]
 	default = upstream
+	gpgSign = if-asked
+
+[commit]
+	gpgSign = true
 
 [rebase]
 	stat = true
