@@ -26,6 +26,10 @@
 	path = .fonts
 	url = git@github.com:powerline/fonts.git
 
+[submodule ".tmux/plugins/pain-control"]
+	path = .tmux/plugins/pain-control
+	url = git@github.com:tmux-plugins/tmux-pain-control.git
+
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
