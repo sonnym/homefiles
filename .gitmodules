@@ -29,6 +29,9 @@
 [submodule ".tmux/plugins/pain-control"]
 	path = .tmux/plugins/pain-control
 	url = git@github.com:tmux-plugins/tmux-pain-control.git
+[submodule ".tmux/plugins/prefix-highlight"]
+	path = .tmux/plugins/prefix-highlight
+	url = git@github.com:tmux-plugins/tmux-prefix-highlight.git
 
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
