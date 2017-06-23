@@ -10,13 +10,13 @@
 	url = git@github.com:sonnym/elmenv.git
 [submodule ".nvm"]
 	path = .nvm
-	url = git://github.com/creationix/nvm.git
+	url = git@github.com:creationix/nvm.git
 [submodule ".rbenv"]
 	path = .rbenv
-	url = git://github.com/sstephenson/rbenv.git
+	url = git@github.com:sstephenson/rbenv.git
 [submodule ".ruby-build"]
 	path = .ruby-build
-	url = git://github.com/sstephenson/ruby-build.git
+	url = git@github.com:sstephenson/ruby-build.git
 
 [submodule "usr/bin/heroku_toolbelt"]
 	path = usr/bin/heroku_toolbelt
@@ -35,7 +35,7 @@
 
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = git@github.com:tpope/vim-pathogen.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
@@ -44,23 +44,23 @@
 	url = git@github.com:ElmCast/elm-vim.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/vim-racket
-	url = git://github.com/wlangstroth/vim-racket.git
+	url = git@github.com:wlangstroth/vim-racket.git
 [submodule ".vim/bundle/rust.vim"]
 	path = .vim/bundle/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+	url = git@github.com:kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/vim-liquid"]
 	path = .vim/bundle/vim-liquid
 	url = git@github.com:tpope/vim-liquid.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = git@github.com:scrooloose/nerdtree.git
 
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
-	url = git://github.com/zsh-users/zsh-completions.git
+	url = git@github.com:zsh-users/zsh-completions.git
 [submodule ".zsh/plugins/zsh-syntax-highlighting"]
 	path = .zsh/plugins/zsh-syntax-highlighting
-	url = git://github.com/zsh-users/zsh-syntax-highlighting.git
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
