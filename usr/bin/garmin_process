@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-PYTHONPATH=$HOME/usr/lib/python2.7/site-packages/ ant-downloader
+PYTHONPATH=$HOME/usr/lib/python2.7/site-packages/ ant-downloader &&
 PYTHONPATH=$HOME/usr/lib/python3.6/site-packages/ gupload -u michaud.sonny@gmail.com -p $(pass internet/connect.garmin.com) $HOME/.antd/0xe2854cb4/tcx/$(ls $HOME/.antd/0xe2854cb4/tcx | tail -n 1)
