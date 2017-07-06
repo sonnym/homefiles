@@ -34,25 +34,25 @@
 	url = git@github.com:tmux-plugins/tmux-prefix-highlight.git
 
 [submodule ".vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
+	path = .vim/bundle/pathogen
 	url = git@github.com:tpope/vim-pathogen.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
 [submodule ".vim/bundle/elm-vim"]
-	path = .vim/bundle/elm-vim
+	path = .vim/bundle/elm
 	url = git@github.com:ElmCast/elm-vim.git
 [submodule ".vim/bundle/vim-racket"]
-	path = .vim/bundle/vim-racket
+	path = .vim/bundle/racket
 	url = git@github.com:wlangstroth/vim-racket.git
 [submodule ".vim/bundle/rust.vim"]
-	path = .vim/bundle/rust.vim
+	path = .vim/bundle/rust
 	url = git@github.com:rust-lang/rust.vim.git
 [submodule ".vim/bundle/vim-coffee-script"]
-	path = .vim/bundle/vim-coffee-script
+	path = .vim/bundle/coffee-script
 	url = git@github.com:kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/vim-liquid"]
-	path = .vim/bundle/vim-liquid
+	path = .vim/bundle/liquid
 	url = git@github.com:tpope/vim-liquid.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
