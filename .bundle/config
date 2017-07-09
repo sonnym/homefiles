@@ -1,3 +1,4 @@
 ---
 BUNDLE_BUILD__NOKOGIRI: "--use-system-libraries"
-BUNDLE_GEM__TEST: minitest
+BUNDLE_GEM__TEST: "minitest"
+BUNDLE_GIT__ALLOW_INSECURE: "true"
