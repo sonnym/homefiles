@@ -57,6 +57,9 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule ".vim/bundle/bracketed-paste"]
+	path = .vim/bundle/bracketed-paste
+	url = git@github.com:ConradIrwin/vim-bracketed-paste.git
 
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
