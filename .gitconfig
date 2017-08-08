@@ -28,6 +28,7 @@
 [status]
   short = true
   branch = true
+  showStash = true
 
 [log]
   decorate = true
