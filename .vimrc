@@ -10,6 +10,7 @@ set laststatus=2
 " filetypes
 autocmd BufNewFile,BufRead *.scss set ft=sass
 autocmd BufNewFile,BufRead *.haml set ft=haml
+autocmd BufNewFile,BufRead .babelrc set ft=json
 autocmd BufNewFile,BufRead *.{prawn,rabl},{Cap,Guard,Gem,Vagrant}file set ft=ruby
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufNewFile,BufRead *.{install,module,inc,test,profile,drush} set ft=php
