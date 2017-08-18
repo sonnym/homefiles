@@ -7,3 +7,7 @@ function npm-exec() {
 function yarn-exec() {
   PATH=$(yarn bin):$PATH $@
 }
+
+function node-inspect() {
+  node inspect $(which $1) ${@: (2,-1)}
+}
