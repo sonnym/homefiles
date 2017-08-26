@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 source $HOME/.nvm/nvm.sh
-nvm exec 6.11.2 $HOME/usr/bin/gitbook-cli/bin/gitbook.js
+nvm exec 6.11.2 $HOME/usr/bin/gitbook-cli/bin/gitbook.js $@
