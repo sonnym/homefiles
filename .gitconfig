@@ -14,6 +14,7 @@
   fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
   squash = !sh -c 'REV=$(git rev-parse $1) && git commit --squash $@ && git rebase -i --autosquash $REV^' -
   push-and-track-branch = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+  initial = commit --allow-empty -m 'initial commit'
 
 [fetch]
   prune = true
