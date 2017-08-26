@@ -21,6 +21,9 @@
 [submodule "usr/bin/heroku_toolbelt"]
 	path = usr/bin/heroku_toolbelt
 	url = git@github.com:heroku/heroku.git
+[submodule "usr/bin/gitbook-cli"]
+	path = usr/bin/gitbook-cli
+	url = git@github.com:GitbookIO/gitbook-cli.git
 
 [submodule ".fonts"]
 	path = .fonts
