@@ -44,6 +44,7 @@
 [diff]
   mnemonicprefix = true
   algorithm = histogram
+  ignoreSubmodules = dirty
   tool = vimdiff
 
 [difftool]
