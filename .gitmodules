@@ -60,6 +60,9 @@
 [submodule ".vim/bundle/vim-liquid"]
 	path = .vim/bundle/liquid
 	url = git@github.com:tpope/vim-liquid.git
+[submodule ".vim/bundle/vue"]
+  path = .vim/bundle/vue
+  url = git@github.com:posva/vim-vue.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
