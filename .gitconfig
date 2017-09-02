@@ -17,6 +17,7 @@
   since-master = !git log --oneline master.. | wc -l
   push-branch = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
   commit-initial = commit --allow-empty -m 'initial commit'
+  ls-new-files = !git status --porcelain | awk '$1 == \"A\" { print $2 }'
 
 [fetch]
   prune = true
