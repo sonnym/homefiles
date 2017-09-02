@@ -10,11 +10,13 @@
 [alias]
   sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo || :'
   sinit = !git submodule update --init --depth=1 $(git submodule | grep '^-' | awk '{ print $2 }')
-  since-master = !git log --oneline master.. | wc -l
+
   fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
   squash = !sh -c 'REV=$(git rev-parse $1) && git commit --squash $@ && git rebase -i --autosquash $REV^' -
-  push-and-track-branch = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
-  initial = commit --allow-empty -m 'initial commit'
+
+  since-master = !git log --oneline master.. | wc -l
+  push-branch = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+  commit-initial = commit --allow-empty -m 'initial commit'
 
 [fetch]
   prune = true
