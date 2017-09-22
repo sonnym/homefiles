@@ -51,6 +51,9 @@
 [submodule ".vim/bundle/elm-vim"]
 	path = .vim/bundle/elm
 	url = git@github.com:ElmCast/elm-vim.git
+[submodule ".vim/bundle/es6"]
+	path = .vim/bundle/es6
+	url = git@github.com:isRuslan/vim-es6.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/racket
 	url = git@github.com:wlangstroth/vim-racket.git
