@@ -35,13 +35,6 @@
 [submodule ".tmux/plugins/prefix-highlight"]
 	path = .tmux/plugins/prefix-highlight
 	url = git@github.com:tmux-plugins/tmux-prefix-highlight.git
-[submodule ".tmux/plugins/resurrect"]
-	path = .tmux/plugins/resurrect
-	url = git@github.com:tmux-plugins/tmux-resurrect.git
-[submodule ".tmux/plugins/sessionist"]
-	path = .tmux/plugins/sessionist
-	url = git@github.com:tmux-plugins/tmux-sessionist.git
-
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/pathogen
 	url = git@github.com:tpope/vim-pathogen.git
