@@ -3,22 +3,18 @@ set nocompatible
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+syntax on
+
+" core
 set bg=dark
+set ruler
 set showfulltag
+set showmode
 set laststatus=2
-
-" filetypes
-autocmd BufNewFile,BufRead *.scss set ft=sass
-autocmd BufNewFile,BufRead *.haml set ft=haml
-autocmd BufNewFile,BufRead .babelrc set ft=json
-autocmd BufNewFile,BufRead *.{prawn,rabl},{Cap,Guard,Gem,Vagrant}file set ft=ruby
-autocmd BufNewFile,BufRead *.md set filetype=markdown
-autocmd BufNewFile,BufRead *.{install,module,inc,test,profile,drush} set ft=php
-autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
-autocmd BufNewFile,BufRead *.{cs,ascx,asmx,asax} set ft=cs
-autocmd BufNewFile,BufRead *.{aspx,master,ascx,ejs,handlebars} set ft=html
-
-autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
+set noea
+set wrap!
+set title
+set mouse=
 
 " indentation
 set tabstop=2
@@ -36,11 +32,6 @@ set incsearch
 set smartcase
 set hlsearch
 
-set noea
-set wrap!
-set title
-set mouse=
-
 " coerce filename completion to shell-like behavior
 set wildmenu
 set wildmode=longest,list
@@ -48,6 +39,22 @@ set wildmode=longest,list
 " disable help and ex-mode
 nnoremap <F1> <nop>
 nnoremap Q <nop>
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" filetypes
+autocmd BufNewFile,BufRead *.scss set ft=sass
+autocmd BufNewFile,BufRead *.haml set ft=haml
+autocmd BufNewFile,BufRead .babelrc set ft=json
+autocmd BufNewFile,BufRead *.{prawn,rabl},{Cap,Guard,Gem,Vagrant}file set ft=ruby
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufNewFile,BufRead *.{install,module,inc,test,profile,drush} set ft=php
+autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
+autocmd BufNewFile,BufRead *.{cs,ascx,asmx,asax} set ft=cs
+autocmd BufNewFile,BufRead *.{aspx,master,ascx,ejs,handlebars} set ft=html
+
+autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
 " configure syntastic
 let g:syntastic_enable_highlighting = 0
@@ -96,5 +103,15 @@ highlight SignColumn ctermbg=234 guibg=#1c1c1c
 
 highlight IncSearch ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
 highlight Search ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
+
+"Remember the positions in files with some git-specific exceptions"
+autocmd BufReadPost *
+  \ if line("'\"") > 0 && line("'\"") <= line("$")
+  \           && expand("%") !~ "COMMIT_EDITMSG"
+  \           && expand("%") !~ "ADD_EDIT.patch"
+  \           && expand("%") !~ "addp-hunk-edit.diff"
+  \           && expand("%") !~ "git-rebase-todo" |
+  \   exe "normal g`\"" |
+  \ endif
 
 set exrc
