@@ -17,4 +17,5 @@ HistoryMode=0
 ScrollBarPosition=2
 
 [Terminal Features]
+BlinkingCursorEnabled=true
 FlowControlEnabled=false
