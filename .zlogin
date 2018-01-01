@@ -12,3 +12,6 @@ eval "$(elmenv init -)"
 
 # override ls colors
 eval "$(dircolors --bourne-shell &>/dev/null)"
+
+# configure time output
+export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
