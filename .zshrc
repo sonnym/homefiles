@@ -7,10 +7,10 @@ for file in ~/.zsh/custom/*; do
 done
 
 # plugins
-fpath=(~/.zsh/plugins/zsh-completions/src $fpath)
+fpath=(~/.zsh/plugins/completions/src $fpath)
 
 source ~/.zsh/plugins/autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/plugins/syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # custom theme
 source $HOME/.zsh/themes/hybrid.zsh-theme
