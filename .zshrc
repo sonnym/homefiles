@@ -8,6 +8,8 @@ done
 
 # plugins
 fpath=(~/.zsh/plugins/zsh-completions/src $fpath)
+
+source ~/.zsh/plugins/autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # custom theme
