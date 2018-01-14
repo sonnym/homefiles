@@ -63,6 +63,9 @@
 	path = .vim/bundle/bracketed-paste
 	url = git@github.com:ConradIrwin/vim-bracketed-paste.git
 
+[submodule ".zsh/plugins/auto-suggestions"]
+	path = .zsh/plugins/autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
 [submodule ".zsh/plugins/zsh-completions"]
 	path = .zsh/plugins/zsh-completions
 	url = git@github.com:zsh-users/zsh-completions.git
