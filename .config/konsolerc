@@ -16,6 +16,7 @@ State=AAAA/wAAAAD9AAAAAAAAB4AAAAQKAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1920
 Width 3200=3200
+Window-Maximized 1080x1920=true
 Window-Maximized 1800x3200=true
 
 [Notification Messages]
