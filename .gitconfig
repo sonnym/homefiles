@@ -44,6 +44,9 @@
 [help]
   autocorrect = -1
 
+[pager]
+  branch = false
+
 [diff]
   mnemonicprefix = true
   algorithm = histogram
