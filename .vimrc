@@ -115,3 +115,8 @@ autocmd BufReadPost *
   \ endif
 
 set exrc
+
+" custom directories
+set backupdir=~/.vim/backup_files//
+set directory=~/.vim/swap_files//
+set undodir=~/.vim/undo_files//
