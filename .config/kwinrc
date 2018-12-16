@@ -17,6 +17,7 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
+Number=1
 Rows=1
 
 [Effect-CoverSwitch]
