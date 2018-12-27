@@ -35,9 +35,6 @@
 [submodule ".vim/bundle/ale"]
 	path = .vim/bundle/ale
 	url = git@github.com:w0rp/ale.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
 [submodule ".vim/bundle/elm-vim"]
 	path = .vim/bundle/elm
 	url = git@github.com:ElmCast/elm-vim.git
