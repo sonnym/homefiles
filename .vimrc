@@ -56,25 +56,7 @@ autocmd BufNewFile,BufRead *.{aspx,master,ascx,ejs,handlebars} set ft=html
 
 autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
-" configure syntastic
-let g:syntastic_enable_highlighting = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_quiet_messages = { "level": "warnings" }
-let g:syntastic_rust_checkers = ['rustc']
-let g:syntastic_elm_checkers = ['elm_make']
-
-function! SyntasticCheckHook(errors)
-    set statusline=
-
-    if !empty(a:errors)
-        let g:syntastic_loc_list_height = len(a:errors)
-
-				set statusline+=%#warningmsg#
-				set statusline+=%{SyntasticStatuslineFlag()}
-				set statusline+=%*
-    endif
-endfunction
+let g:ale_lint_on_text_changed = 'never'
 
 filetype plugin on
 
