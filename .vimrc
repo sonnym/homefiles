@@ -45,16 +45,8 @@ set backspace=indent,eol,start
 
 " filetypes
 autocmd BufNewFile,BufRead *.scss set ft=sass
-autocmd BufNewFile,BufRead *.haml set ft=haml
-autocmd BufNewFile,BufRead .babelrc set ft=json
-autocmd BufNewFile,BufRead *.{prawn,rabl,jbuilder},{Cap,Guard,Gem,Vagrant}file set ft=ruby
+autocmd BufNewFile,BufRead *.{jbuilder},{Gem,Vagrant}file set ft=ruby
 autocmd BufNewFile,BufRead *.md set filetype=markdown
-autocmd BufNewFile,BufRead *.{install,module,inc,test,profile,drush} set ft=php
-autocmd BufNewFile,BufRead *.{vb,aspx.vb} set ft=vb
-autocmd BufNewFile,BufRead *.{cs,ascx,asmx,asax} set ft=cs
-autocmd BufNewFile,BufRead *.{aspx,master,ascx,ejs,handlebars} set ft=html
-
-autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
 let g:ale_set_highlights = 0
 let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
