@@ -48,6 +48,10 @@ autocmd BufNewFile,BufRead *.scss set ft=sass
 autocmd BufNewFile,BufRead *.{jbuilder},{Gem,Vagrant}file set ft=ruby
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 
+" ale configuration
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_insert_leave = 1
+
 let g:ale_set_highlights = 0
 let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
 let g:ale_linters = {'vue': ['eslint', 'vls']}
