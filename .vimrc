@@ -56,7 +56,9 @@ autocmd BufNewFile,BufRead *.{aspx,master,ascx,ejs,handlebars} set ft=html
 
 autocmd BufNewFile,BufRead *.cfm,*.cfc set ff=dos
 
-let g:ale_lint_on_text_changed = 'never'
+let g:ale_set_highlights = 0
+let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
+let g:ale_linters = {'vue': ['eslint', 'vls']}
 
 filetype plugin on
 
