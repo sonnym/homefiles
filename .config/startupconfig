@@ -7,6 +7,8 @@ kcminputrc_mouse_cursorsize=48
 ksplashrc_ksplash_theme=None
 # ksplashrc KSplash Engine KSplashQML
 ksplashrc_ksplash_engine=none
+# kdeglobals KScreen ScaleFactor ''
+kdeglobals_kscreen_scalefactor=''
 # kdeglobals KScreen ScreenScaleFactors ''
 kdeglobals_kscreen_screenscalefactors=''
 # kcmfonts General forceFontDPI 0
