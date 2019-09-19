@@ -1,9 +1,9 @@
 [submodule ".password-store"]
 	path = .password-store
-	url = git@bitbucket.org:sonnym/password-store.git
+	url = git@github.com:sonnym/password-store.git
 [submodule ".secrets"]
 	path = .secrets
-	url = git@bitbucket.org:sonnym/secrets.git
+	url = git@github.com:sonnym/secrets.git
 
 [submodule ".nvm"]
 	path = .nvm
