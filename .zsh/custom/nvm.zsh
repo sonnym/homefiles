@@ -3,7 +3,7 @@ function _check_for_and_source_nvmrc {
   then
     nvm use 1>/dev/null
   else
-    [[ "$(nvm current)" != "none" ]] && nvm deactivate 1>/dev/null
+    [[ "$(nvm current)" != "none" ]] && nvm deactivate &>/dev/null
   fi
 }
 
