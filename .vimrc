@@ -72,18 +72,6 @@ if &diff
   highlight DiffChange ctermbg=black
 endif
 
-" syntastic highlighting overrides
-highlight SyntasticWarningLine ctermbg=233 guibg=#121212
-highlight SyntasticErrorLine ctermbg=233 guibg=#121212
-
-highlight SyntasticWarningSign ctermfg=226 ctermbg=234 guifg=#ffff00 guibg=#1c1c1c
-highlight SyntasticErrorSign ctermfg=196 ctermbg=234 guifg=#ff0000 guibg=#1c1c1c
-
-highlight SignColumn ctermbg=234 guibg=#1c1c1c
-
-highlight IncSearch ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
-highlight Search ctermfg=255 ctermbg=028 guifg=#ffffff guibg=#008700
-
 "Remember the positions in files with some git-specific exceptions"
 autocmd BufReadPost *
   \ if line("'\"") > 0 && line("'\"") <= line("$")
