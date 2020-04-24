@@ -1,8 +1,8 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
 
 [Compositing]
-AnimationSpeed=0
+AnimationSpeed[$d]
 Backend=OpenGL
 Enabled=false
 GLColorCorrection=false
@@ -73,6 +73,10 @@ CommandWindow2=Activate and pass click
 CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
+[NightColor]
+Mode=Constant
+NightTemperature=1100
+
 [Plugins]
 blurEnabled=false
 contrastEnabled=false
@@ -83,6 +87,7 @@ highlightwindowEnabled=true
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=false
+kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_frozenappEnabled=false
 kwin4_effect_loginEnabled=false
 kwin4_effect_logoutEnabled=false
@@ -108,6 +113,8 @@ ActivitiesMode=0
 ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=0
 HighlightWindows=true
 LayoutName=compact
@@ -164,7 +171,8 @@ TitlebarDoubleClickCommand=Shade
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=Normal
+BorderSize=NoSides
+BorderSizeAuto=false
 ButtonsOnLeft=M
 ButtonsOnRight=BFIAX
 CloseOnDoubleClickOnMenu=false

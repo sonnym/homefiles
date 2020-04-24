@@ -23,7 +23,7 @@ immutability=1
 plugin=org.kde.plasma.lock_logout
 
 [Containments][2][Applets][21][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][2][Applets][21][Configuration][ConfigDialog]
 DialogHeight=1200
@@ -72,7 +72,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][8][Configuration][Appearance]
 dateFormat=isoDate
@@ -95,6 +95,7 @@ PreloadWeight=0
 AppletOrder=4;5;6;8;21
 
 [Containments][20]
+ItemGeometriesHorizontal=
 activityId=c5e333d8-4e7a-453f-be61-5754ca03660e
 formfactor=0
 immutability=1
@@ -111,13 +112,14 @@ DialogWidth=1600
 PreloadWeight=0
 
 [Containments][20][General]
-ToolBoxButtonState=topright
-ToolBoxButtonX=3776
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=1430
 
 [Containments][20][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
 [Containments][23]
+ItemGeometriesHorizontal=
 activityId=c5e333d8-4e7a-453f-be61-5754ca03660e
 formfactor=0
 immutability=1
@@ -131,7 +133,7 @@ DialogHeight=1200
 DialogWidth=1600
 
 [Containments][23][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][23][Wallpaper][org.kde.color][General]
 Color=0,0,0
@@ -153,31 +155,23 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=82
+PreloadWeight=94
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
-
-[Containments][7][Applets][13]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
+PreloadWeight=10
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
 [Containments][7][Applets][14][Configuration]
 PreloadWeight=42
 
-[Containments][7][Applets][15]
-immutability=1
-plugin=org.kde.plasma.printmanager
-
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
 [Containments][7][Applets][16][Configuration]
 PreloadWeight=42
@@ -187,7 +181,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=69
+PreloadWeight=100
 
 [Containments][7][Applets][17][Configuration][ConfigDialog]
 DialogHeight=2054
@@ -201,7 +195,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=14
+PreloadWeight=13
 
 [Containments][7][Applets][18][Configuration][ConfigDialog]
 DialogHeight=1200
@@ -212,13 +206,16 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
-[Containments][7][Applets][24]
+[Containments][7][Applets][24][Configuration]
+PreloadWeight=42
+
+[Containments][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
-[Containments][7][Applets][24][Configuration]
+[Containments][7][Applets][25][Configuration]
 PreloadWeight=0
 
 [Containments][7][Applets][9]
@@ -243,14 +240,14 @@ DialogWidth=3840
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect
-hiddenItems=org.kde.kdeconnect,org.kde.plasma.pkupdates
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect
+hiddenItems=org.kde.kdeconnect
 iconSize=1
-knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.clipboard
-shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement
+knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol
+shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
