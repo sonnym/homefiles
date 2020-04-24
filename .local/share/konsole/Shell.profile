@@ -1,16 +1,25 @@
 [Appearance]
 AntiAliasFonts=false
-BoldIntense=false
+BoldIntense=true
 ColorScheme=GreenOnBlack
-Font=Inconsolata,8,-1,5,50,0,0,0,0,0
+Font=Inconsolata for Powerline,9,-1,5,57,0,0,0,0,0,Medium
+UseFontLineChararacters=false
+
+[Cursor Options]
+UseCustomCursorColor=false
 
 [General]
 Command=/bin/zsh -c tmux
+DimWhenInactive=true
 Name=Shell
 Parent=FALLBACK/
+TerminalCenter=false
 
 [Interaction Options]
+AlternateScrolling=true
+CtrlRequiredForDrag=true
 MouseWheelZoomEnabled=false
+OpenLinksByDirectClickEnabled=true
 
 [Scrolling]
 HistoryMode=0
