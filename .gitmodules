@@ -58,8 +58,8 @@
 [submodule ".vim/bundle/rust.vim"]
 	path = .vim/bundle/rust
 	url = git@github.com:rust-lang/rust.vim.git
-[submodule "/home/sonny/.vim/bundle/scss-syntax"]
-	path = /home/sonny/.vim/bundle/scss-syntax
+[submodule ".vim/bundle/scss-syntax"]
+	path = .vim/bundle/scss-syntax
 	url = git@github.com:cakebaker/scss-syntax.vim
 [submodule ".vim/bundle/vim-liquid"]
 	path = .vim/bundle/liquid
