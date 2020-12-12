@@ -89,6 +89,7 @@ kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_frozenappEnabled=false
+kwin4_effect_fullscreenEnabled=false
 kwin4_effect_loginEnabled=false
 kwin4_effect_logoutEnabled=false
 kwin4_effect_maximizeEnabled=false
@@ -137,7 +138,7 @@ ShowTabBox=true
 SwitchingMode=0
 
 [Windows]
-ActiveMouseScreen=false
+ActiveMouseScreen=true
 AutoRaise=false
 AutoRaiseInterval=750
 AutogroupInForeground=true
@@ -171,7 +172,7 @@ TitlebarDoubleClickCommand=Shade
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=NoSides
+BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=M
 ButtonsOnRight=BFIAX

@@ -3,6 +3,24 @@ MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
+run associated application=true
+
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
@@ -57,6 +75,10 @@ DialogWidth=1600
 
 [Containments][2][Applets][5][Configuration][General]
 groupingStrategy=0
+launchers=
+maxStripes=1
+middleClickAction=None
+showToolTips=false
 wheelEnabled=false
 
 [Containments][2][Applets][6]
@@ -85,7 +107,7 @@ DialogHeight=1200
 DialogWidth=1600
 
 [Containments][2][ConfigDialog]
-DialogHeight=152
+DialogHeight=149
 DialogWidth=3840
 
 [Containments][2][Configuration]
@@ -94,9 +116,8 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=4;5;6;8;21
 
-[Containments][20]
-ItemGeometriesHorizontal=
-activityId=c5e333d8-4e7a-453f-be61-5754ca03660e
+[Containments][25]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
 formfactor=0
 immutability=1
 lastScreen=0
@@ -104,23 +125,23 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.color
 
-[Containments][20][ConfigDialog]
+[Containments][25][ConfigDialog]
 DialogHeight=1200
 DialogWidth=1600
 
-[Containments][20][Configuration]
-PreloadWeight=0
-
-[Containments][20][General]
+[Containments][25][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=1430
+ToolBoxButtonX=1315
 
-[Containments][20][Wallpaper][org.kde.color][General]
+[Containments][25][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
-[Containments][23]
-ItemGeometriesHorizontal=
-activityId=c5e333d8-4e7a-453f-be61-5754ca03660e
+[Containments][25][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg
+SlidePaths=/usr/share/wallpapers
+
+[Containments][27]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
 formfactor=0
 immutability=1
 lastScreen=1
@@ -128,15 +149,79 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.color
 
-[Containments][23][ConfigDialog]
+[Containments][27][ConfigDialog]
 DialogHeight=1200
 DialogWidth=1600
 
-[Containments][23][Configuration]
-PreloadWeight=18
-
-[Containments][23][Wallpaper][org.kde.color][General]
+[Containments][27][Wallpaper][org.kde.color][General]
 Color=0,0,0
+
+[Containments][27][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers
+
+[Containments][28]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][30]
+ItemGeometriesHorizontal=
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=3
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][30][Applets][31]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][30][Applets][31][Configuration][General]
+noteId=0c7814e0-6e0a-4ab2-99e9-140d59438e
+
+[Containments][30][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][30][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
+[Containments][30][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers
+
+[Containments][33]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=5
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][34]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=4
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][34][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][34][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
+[Containments][34][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers
 
 [Containments][7]
 activityId=
@@ -195,7 +280,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=13
+PreloadWeight=23
 
 [Containments][7][Applets][18][Configuration][ConfigDialog]
 DialogHeight=1200
@@ -206,7 +291,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][7][Applets][24][Configuration]
 PreloadWeight=42
@@ -250,5 +335,5 @@ shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkma
 immutability=1
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/usr,0,desktop:/Home.desktop,0,desktop:/trash.desktop,0,desktop:/src,0
+itemsOnDisabledScreens=0,4,desktop:/usr,desktop:/Home.desktop,desktop:/trash.desktop,desktop:/src
+screenMapping=
