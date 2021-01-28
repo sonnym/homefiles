@@ -303,6 +303,10 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][7][Applets][25][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][35]
+immutability=1
+plugin=org.kde.plasma.notifications
+
 [Containments][7][Applets][9]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -319,14 +323,14 @@ volumeFeedback=false
 
 [Containments][7][ConfigDialog]
 DialogHeight=2054
-DialogWidth=3840
+DialogWidth=3838
 
 [Containments][7][Configuration]
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect
-hiddenItems=org.kde.kdeconnect
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.notifications
+hiddenItems=org.kde.kdeconnect,org.kde.plasma.notifications
 iconSize=1
 knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol
 shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth
