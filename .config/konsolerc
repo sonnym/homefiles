@@ -16,10 +16,10 @@ ToolBarsMovable=Disabled
 Window-Maximized 1080x1920=true
 Window-Maximized 1800x3200=true
 Window-Maximized 2160x3840=true
-eDP-1 DP-3 XPosition=3840
-eDP-1 DP-3 YPosition=0
+eDP-1 DP-3 XPosition=0
+eDP-1 DP-3 YPosition=22
 eDP-1 XPosition=0
-eDP-1 YPosition=20
+eDP-1 YPosition=22
 
 [Notification Messages]
 CloseAllTabs=true
