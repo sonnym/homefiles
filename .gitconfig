@@ -74,3 +74,5 @@
 
 [diff "pgp-crypt"]
   textconv = gpg2 --encrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent --output /proc/$$/fd/1
+[init]
+	defaultBranch = main
