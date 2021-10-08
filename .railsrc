@@ -1,1 +1,3 @@
 --database=postgresql
+--no-master
+--minimal
