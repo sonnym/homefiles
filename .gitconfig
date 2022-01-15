@@ -24,7 +24,7 @@
 [fetch]
   prune = true
 [pull]
-  rebase = preserve
+  rebase = merges
 [push]
   default = upstream
   gpgSign = if-asked
