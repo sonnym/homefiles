@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+ssh nas 'sudo cryptsetup luksOpen --key-file - /dev/md3 storage' < ~/.ssh/ls200.key
+ssh nas 'sudo mount /dev/mapper/storage /mnt/storage'
