@@ -14,3 +14,6 @@ source ~/.zsh/plugins/syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # custom theme
 source $HOME/.zsh/themes/hybrid.zsh-theme
+
+# rbenv
+eval "$(rbenv init -)"

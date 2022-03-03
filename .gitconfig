@@ -3,9 +3,8 @@
   pager = less --tabs=2
 
 [user]
-  name = Sonny Michaud
-  email = michaud.sonny@gmail.com
-  signingkey = 0BD7F8E6349F3C61
+	email = sonnym@scribd.com
+	name = Sonny Michaud
 
 [alias]
   sup = submodule foreach 'cd $toplevel && git submodule update --remote --checkout --depth=1 -- $path && echo || :'
@@ -28,9 +27,6 @@
 [push]
   default = upstream
   gpgSign = if-asked
-
-[commit]
-  gpgSign = true
 
 [rebase]
   stat = true
@@ -66,11 +62,3 @@
 
 [remote "origin"]
   tagopt = --tags
-
-[filter "pgp-crypt"]
-  clean = gpg2 --encrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent --output /proc/$$/fd/1 %f 2>/dev/null
-  smudge = gpg2 --decrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent 2>/dev/null
-  required
-
-[diff "pgp-crypt"]
-  textconv = gpg2 --encrypt --yes --recipient 'Sonny Michaud <michaud.sonny@gmail.com>' --use-agent --output /proc/$$/fd/1
