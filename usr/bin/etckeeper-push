@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+ssh-agent
+ssh-add
+cd /etc
+sudo -E git push
+cd -
