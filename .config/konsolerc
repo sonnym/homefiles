@@ -1,3 +1,7 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAACgAAAAVaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIBAAABxf////8AAAAAAAAAAA==
+StatusBar=Disabled
+
 [Desktop Entry]
 DefaultProfile=Shell.profile
 
@@ -5,21 +9,43 @@ DefaultProfile=Shell.profile
 Favorites=Shell.profile
 
 [KonsoleWindow]
-SaveGeometryOnExit=false
+RememberWindowSize=false
 ShowAppNameOnTitleBar=false
 ShowMenuBarByDefault=false
 
 [MainWindow]
+:0.0 Window-Maximized 2560x1440=true
+DP-3-1 DP-3-2 Window-Maximized 2560x1440=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAADwAAAAgGAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAANUBAAADAAAKAAAABYgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////A58rkwAugWMAAAAcAHMAZQBzAHMAaQBvAG4AVABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
 ToolBarsMovable=Disabled
 Window-Maximized 1080x1920=true
 Window-Maximized 1800x3200=true
 Window-Maximized 2160x3840=true
-eDP-1 DP-3 XPosition=0
-eDP-1 DP-3 YPosition=22
-eDP-1 XPosition=0
-eDP-1 YPosition=22
+eDP-1 DP-1 Window-Maximized 1646x926=true
+eDP-1 DP-1 Window-Maximized 2194x1234=true
+eDP-1 DP-3-1 DP-3-2 Height 2560x1440=1411
+eDP-1 DP-3-1 DP-3-2 Width 2560x1440=2558
+eDP-1 DP-3-1 DP-3-2 Window-Maximized 2560x1440=true
+eDP-1 DP-3-1 DP-3-2 XPosition 2560x1440=3131
+eDP-1 DP-3-1 DP-3-2 YPosition 2560x1440=273
+eDP-1 DP-3-1 Window-Maximized 3840x2160=true
+eDP-1 DP-3-2 DP-3-1 Height 2560x1440=394
+eDP-1 DP-3-2 DP-3-1 Width 2560x1440=779
+eDP-1 DP-3-2 DP-3-1 Window-Maximized 2560x1440=true
+eDP-1 DP-3-2 Window-Maximized 3840x2160=true
+eDP-1 Height 2194x1234=394
+eDP-1 Height 2560x1440=394
+eDP-1 Height 3840x2160=394
+eDP-1 Width 2194x1234=800
+eDP-1 Width 2560x1440=779
+eDP-1 Width 3840x2160=779
+eDP-1 Window-Maximized 2194x1234=true
+eDP-1 Window-Maximized 2560x1440=true
+eDP-1 Window-Maximized 3840x2160=true
+eDP-1 XPosition 2194x1234=0
+eDP-1 YPosition 2194x1234=24
 
 [Notification Messages]
 CloseAllTabs=true
@@ -27,3 +53,6 @@ ShowPasteUnprintableWarning=false
 
 [TabBar]
 TabBarVisibility=AlwaysHideTabBar
+
+[UiSettings]
+ColorScheme=Default
