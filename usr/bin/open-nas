@@ -4,3 +4,5 @@ set -e
 
 ssh nas 'sudo cryptsetup luksOpen --key-file - /dev/md3 storage' < ~/.ssh/ls200.key
 ssh nas 'sudo mount /dev/mapper/storage /mnt/storage'
+ssh nas 'sudo mount --bind /mnt/storage /srv/storage'
+sudo mount -t nfs4 $(ssh -G nas | awk '/^hostname / { print $2 }'):/srv/storage mnt/storage
