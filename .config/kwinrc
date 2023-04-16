@@ -1,10 +1,9 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 AnimationSpeed[$d]
 Backend=OpenGL
-Enabled=false
 GLColorCorrection=false
 GLCore=true
 GLPlatformInterface=glx
@@ -17,9 +16,14 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
 Id_1=3329ed82-fa00-4ee7-aa8c-31e84c90c209
 Number=1
 Rows=1
+TabBox=false
+TabBoxAlternative=false
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -43,6 +47,22 @@ BorderActivateAll=7
 BorderActivateClass=9
 
 [Effect-Zoom]
+InitialZoom=1
+
+[Effect-desktopgrid]
+BorderActivate=9
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-presentwindows]
+BorderActivate=9
+BorderActivateAll=7
+BorderActivateClass=9
+
+[Effect-windowview]
+BorderActivateAll=9
+
+[Effect-zoom]
 InitialZoom=1
 
 [ElectricBorders]
@@ -137,6 +157,18 @@ ShowDesktopMode=0
 ShowTabBox=true
 SwitchingMode=0
 
+[Tiling]
+padding=4
+
+[Tiling][1e70840a-5180-5452-aab2-23a852a726ca]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][35376e4d-b344-57ef-9a3b-043cf3733ead]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
 ActiveMouseScreen=true
 AutoRaise=false
@@ -152,7 +184,6 @@ ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=false
-ElectricBorders=2
 FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=1
 GeometryTip=false

@@ -94,7 +94,9 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=15
+popupHeight=800
+popupWidth=704
 
 [Containments][2][Applets][8][Configuration][Appearance]
 dateFormat=isoDate
@@ -115,36 +117,6 @@ PreloadWeight=0
 
 [Containments][2][General]
 AppletOrder=4;5;6;8;21
-
-[Containments][25]
-ItemGeometries-2560x1440=
-ItemGeometries-3840x2160=
-ItemGeometriesHorizontal=
-activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.color
-
-[Containments][25][ConfigDialog]
-DialogHeight=1200
-DialogWidth=1600
-
-[Containments][25][Configuration]
-PreloadWeight=0
-
-[Containments][25][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=1315
-
-[Containments][25][Wallpaper][org.kde.color][General]
-Color=0,0,0
-
-[Containments][25][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg
-SlidePaths=/usr/share/wallpapers
 
 [Containments][27]
 ItemGeometries-2560x1440=
@@ -169,21 +141,6 @@ Color=0,0,0
 
 [Containments][27][Wallpaper][org.kde.image][General]
 SlidePaths=/usr/share/wallpapers
-
-[Containments][28]
-activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][28][Configuration]
-PreloadWeight=0
-
-[Containments][28][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/3840x2160.png
 
 [Containments][30]
 ItemGeometriesHorizontal=
@@ -267,6 +224,56 @@ Color=0,0,0
 Image=file:///usr/share/wallpapers/Next/contents/images/2560x1440.png
 SlidePaths=/usr/share/wallpapers
 
+[Containments][41]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][41][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][41][Configuration]
+PreloadWeight=0
+
+[Containments][41][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
+[Containments][41][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/3840x2160.png
+PreviewImage=/usr/share/wallpapers/Next/contents/images/3840x2160.png
+
+[Containments][44]
+activityId=f6fc490f-307e-4f7d-80f2-f31253df2129
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][44][ConfigDialog]
+DialogHeight=1200
+DialogWidth=1600
+
+[Containments][44][Configuration]
+PreloadWeight=0
+
+[Containments][44][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=1315
+
+[Containments][44][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
+[Containments][44][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg
+SlidePaths=/usr/share/wallpapers
+
 [Containments][7]
 activityId=
 formfactor=2
@@ -274,6 +281,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=768
+popupWidth=768
 wallpaperplugin=org.kde.image
 
 [Containments][7][Applets][10][Configuration]
@@ -284,7 +293,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=17
+PreloadWeight=100
 
 [Containments][7][Applets][12]
 immutability=1
@@ -310,7 +319,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=59
+PreloadWeight=100
 
 [Containments][7][Applets][17][Configuration][ConfigDialog]
 DialogHeight=2054
@@ -324,7 +333,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][7][Applets][18][Configuration][ConfigDialog]
 DialogHeight=1200
@@ -335,7 +344,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=0
+PreloadWeight=20
 
 [Containments][7][Applets][24][Configuration]
 PreloadWeight=42
@@ -359,7 +368,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][36][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][39]
 immutability=1
@@ -380,13 +389,15 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=52
+PreloadWeight=97
 
 [Containments][7][Applets][9][Configuration][ConfigDialog]
 DialogHeight=1140
 DialogWidth=1520
 
 [Containments][7][Applets][9][Configuration][General]
+currentTab=streams
+migrated=true
 raiseMaximumVolume=true
 volumeFeedback=false
 
@@ -401,7 +412,7 @@ PreloadWeight=0
 extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
 hiddenItems=org.kde.kdeconnect,org.kde.plasma.notifications,ibus-ui-gtk3
 iconSize=1
-knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
+knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth
 
 [General]
