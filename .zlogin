@@ -7,6 +7,7 @@ export MANPATH=$HOME/usr/share/man:$MANPATH
 
 # set up pyenv
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # set up rbenv
 eval "$(rbenv init -)"
