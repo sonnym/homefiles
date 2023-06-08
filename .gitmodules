@@ -11,6 +11,9 @@
 [submodule "pyenv"]
 	path = .pyenv
 	url = git@github.com:pyenv/pyenv.git
+[submodule "pyenv-virtualenv"]
+	path = .pyenv-plugins/pyenv-virtualenv
+	url = git@github.com:pyenv/pyenv-virtualenv.git
 [submodule ".rbenv"]
 	path = .rbenv
 	url = git@github.com:sstephenson/rbenv.git
