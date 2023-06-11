@@ -56,6 +56,8 @@ let g:ale_set_highlights = 0
 let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
 let g:ale_linters = {'vue': ['eslint', 'vls']}
 
+let g:ale_python_pylint_auto_poetry = 1
+
 filetype plugin on
 
 " display extra whitespace at the end of the line except when typing
