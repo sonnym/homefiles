@@ -1,10 +1,6 @@
 [submodule ".password-store"]
 	path = .password-store
 	url = git@github.com:sonnym/password-store.git
-[submodule ".secrets"]
-	path = .secrets
-	url = git@github.com:sonnym/secrets.git
-
 [submodule ".nvm"]
 	path = .nvm
 	url = git@github.com:creationix/nvm.git
