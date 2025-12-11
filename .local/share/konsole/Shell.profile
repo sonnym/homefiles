@@ -2,7 +2,7 @@
 AntiAliasFonts=false
 BoldIntense=true
 ColorScheme=GreenOnBlack
-Font=Inconsolata for Powerline,10,-1,5,57,0,0,0,0,0,Medium
+Font=Liberation Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 UseFontLineChararacters=false
 
 [Cursor Options]
