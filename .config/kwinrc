@@ -9,7 +9,7 @@ GLCore=true
 GLPlatformInterface=glx
 GLPreferBufferSwap=c
 GLTextureFilter=2
-HiddenPreviews=5
+HiddenPreviews=4
 OpenGLIsUnsafe=false
 UnredirectFullscreen=false
 WindowsBlockCompositing=true
@@ -103,6 +103,8 @@ contrastEnabled=false
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
 desktopgridEnabled=false
+dialogparentEnabled=false
+frozenappEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_fadedesktopEnabled=false
@@ -118,6 +120,7 @@ kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
 logoutEnabled=false
+overviewEnabled=false
 presentwindowsEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
@@ -142,7 +145,6 @@ LayoutName=compact
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
-ShowTabBox=true
 SwitchingMode=0
 
 [TabBoxAlternative]
@@ -166,7 +168,16 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][286c425e-6177-59e9-886e-6ec57129a06a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][35376e4d-b344-57ef-9a3b-043cf3733ead]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7c08692e-19b2-5b4f-ad2d-0d7f90f5847f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][acb1c2a5-be4a-5231-ad23-f46836d5fb43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
